@@ -1,4 +1,61 @@
-<h1> Zdravím,\n já jsem\n Hynek <h1>
-\n
-<h2>toto je domácí úkol pro předmět \n
-4IZ110 Informační a komunikační technologie </h2>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Osobní Stránka</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">MojeJméno</div>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#skills">Dovednosti</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>Ahoj, já jsem <span>Tvoje Jméno</span></h1>
+            <p>Jsem kreativní nadšenec a tohle je můj digitální prostor.</p>
+            <a href="#about" class="btn">Zjistit více</a>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>O mně</h2>
+        <p>Tady můžeš napsat pár vět o tom, kdo jsi, co tě baví a čemu se věnuješ. Buď autentický/á! Například co studuješ, jaké máš koníčky nebo jaké jsou tvé životní cíle.</p>
+    </section>
+
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2>Dovednosti</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">Design</div>
+                <div class="skill-card">Psaní textů</div>
+                <div class="skill-card">Fotografie</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Napiš mi!</h2>
+            <p>Můžeš mě kontaktovat na emailu: <a href="mailto:tvuj@email.cz">tvuj@email.cz</a></p>
+            <div class="socials">
+                <a href="#">Instagram</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+            </div>
+            <p class="copy">&copy; 2026 Tvoje Jméno</p>
+        </div>
+    </footer>
+
+</body>
+</html>
